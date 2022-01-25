@@ -598,7 +598,7 @@ img {
   margin-right: auto;
   margin-left: auto;
 }
-.check-text span {
+.check-text .custom-icon {
   width: 16px;
   height: 15px;
   border-radius: 2px;
@@ -610,12 +610,12 @@ img {
   cursor: pointer;
 }
 
-.policy-checkbox:checked + .check-text span {
+.policy-checkbox:checked + .check-text .custom-icon {
   background-color: var(--accent-color);
   border: none;
 }
-.policy-checkbox:hover + .check-text span,
-.policy-checkbox:focus + .check-text span {
+.policy-checkbox:hover + .check-text .custom-icon,
+.policy-checkbox:focus + .check-text .custom-icon {
   border-color: var(--accent-color);
 }
 /* ---------------FILTER-PORTFOLIO---------- */
